@@ -1,4 +1,4 @@
-# Utbildning i Webbteknik för lärare
+﻿# Utbildning i Webbteknik för lärare
 
 Samarrangemang mellan Lars Gunther (Keryx) och Thelin
 
@@ -23,3 +23,4 @@ Fredag
 
  * Kursplaner, bedömning, egen fortbildning
 
+Test
