@@ -67,3 +67,23 @@ footer {
         display: block;
     }
 }
+@media all and (max-width: 500px) {
+    article: {
+        flex: 0 0 100%;
+    }
+    aside: {
+        flex: 0 0 100%;
+        min-height: 3em;
+    }
+    article > h2::after {
+        color: red;
+        content: "500px";
+        display: block;        
+    }    
+}
+@media all and (max-width: 450px) {
+    nav ul {
+        max-width: 60%;
+        margin: auto;
+    }
+}
