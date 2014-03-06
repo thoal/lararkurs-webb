@@ -19,17 +19,22 @@ header {
 h1 {
     text-align: center;
 }
-main {}
+main {
     min-height: 300px;
+    display: flex;
+    flex-direction: row;
 }
 nav {
     background-color: hsl(347, 87%, 70%);
+    flex: 1 1 120px;   /* tillväxtandel - krympandel - ursprungsvärde */
 }
 article {
+    flex: 5 2 840px;
     
 }
 aside {
     background-color: hsl(347, 90%, 60%);
+    flex: 1 1 240px;
 }
 footer {
     background-color: hsl(99, 79%, 68%);
